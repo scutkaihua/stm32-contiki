@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'stm32f1-contiki.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"etimer.o"'
+### List of Objects: adding '"process.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"autostart.o"'
+### List of Objects: adding '"clock.o"'
+### List of Objects: adding '".\startup_stm32f10x_md.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"core_cm3.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "etimer.o" "process.o" "timer.o" "autostart.o" "clock.o" ".\startup_stm32f10x_md.o" "system_stm32f10x.o" "stm32f10x_rcc.o" "core_cm3.o" --strict --scatter "stm32f1-contiki.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\stm32f1-contiki.map" -o "stm32f1-contiki.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'stm32f1-contiki.axf'
+### ADS-LD Command File: 'stm32f1-contiki.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'stm32f1-contiki.lnp', Handle=0x0000039C
+### Writing '.lnp' file
+### ADS-LD Command file 'stm32f1-contiki.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
